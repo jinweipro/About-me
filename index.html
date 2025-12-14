@@ -83,6 +83,19 @@ primaryDark: "#A893E6",
                 width: 90% !important;
             }
         }
+
+.mini-swiper .swiper-slide {
+  width: auto;
+  opacity: 0.85;
+  transition: opacity 0.3s ease;
+}
+
+.mini-swiper .swiper-slide:hover {
+  opacity: 1;
+}
+
+
+
     </style>
 </head>
 <body class="bg-primary text-gray-800 font-sans overflow-x-hidden">
@@ -160,10 +173,10 @@ primaryDark: "#A893E6",
                 <div class="w-48 h-48 md:w-96 md:h-96 relative perspective-1000">
                     <div id="profile-card" class="w-full h-full relative transition-transform duration-[2500ms] ease-in-out preserve-3d">
                         <div class="absolute w-full h-full backface-hidden">
-                            <img src="Picture & Cert/Professional Picture.jpg" alt="Ang Jin Wei Professional Portrait" class="w-full h-full object-cover rounded-full shadow-2xl">
+                            <img src="images/Professional Picture.jpg" alt="Ang Jin Wei Professional Portrait" class="w-full h-full object-cover rounded-full shadow-2xl">
                         </div>
                         <div class="absolute w-full h-full backface-hidden" style="transform: rotateY(180deg);">
-                            <img src="Picture & Cert/Professional Picture.jpg" alt="Ang Jin Wei Professional Portrait" class="w-full h-full object-cover rounded-full shadow-2xl">
+                            <img src="images/Professional Picture.jpg" alt="Ang Jin Wei Professional Portrait" class="w-full h-full object-cover rounded-full shadow-2xl">
                         </div>
                     </div>
                 </div>
@@ -173,12 +186,12 @@ primaryDark: "#A893E6",
 
 
 <section id="experience" class="bg-primary py-20 px-4 md:px-10">
-  <div class="max-w-7xl mx-auto px-4">
+  <div class="max-w-7xl mx-auto px-4 space-y-3">
 
 <!-- Section Title -->
     <h2 class="text-3xl font-bold text-gray-900 mb-12 text-center"> My Experience
     </h2>
-       <!-- Internship (Upcoming) -->
+<!-- Internship (Upcoming) -->
             <div class="grid md:grid-cols-[1fr_2fr] gap-6 items-center bg-white rounded-2xl shadow-lg p-6">
                 <img src="images/internship-placeholder.jpg" alt="Internship" class="w-full h-64 object-cover rounded-xl">
                 <div>
@@ -194,10 +207,10 @@ primaryDark: "#A893E6",
                     </ul>
 <!-- Skills Tags -->
         <div class="flex flex-wrap gap-2 pt-3">
-          <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded">Customer Service</span>
-          <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded">POS System</span>
-          <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded">Cash Handling</span>
-          <span class="bg-gray-200 text-gray-800 text-xs font-semibold px-2.5 py-0.5 rounded">Adaptability</span>
+          <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded">Financial Analysis</span>
+          <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded">Accounting Basics</span>
+          <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded">Excel</span>
+          <span class="bg-gray-200 text-gray-800 text-xs font-semibold px-2.5 py-0.5 rounded">Reporting Support</span>
        		   </div>
                 </div>
             </div>
@@ -218,10 +231,10 @@ primaryDark: "#A893E6",
                     </ul>
 <!-- Skills Tags -->
         <div class="flex flex-wrap gap-2 pt-3">
-          <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded">Customer Service</span>
-          <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded">POS System</span>
-          <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded">Cash Handling</span>
-          <span class="bg-gray-200 text-gray-800 text-xs font-semibold px-2.5 py-0.5 rounded">Adaptability</span>
+          <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded">Event Operations</span>
+          <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded">Customer Engagement</span></span>
+          <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded">Excel Reporting</span>
+          <span class="bg-gray-200 text-gray-800 text-xs font-semibold px-2.5 py-0.5 rounded">Problem Solving</span>
        		   </div>
                 </div>
             </div>
@@ -242,10 +255,10 @@ primaryDark: "#A893E6",
                     </ul>
 <!-- Skills Tags -->
         <div class="flex flex-wrap gap-2 pt-3">
-          <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded">Customer Service</span>
-          <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded">POS System</span>
-          <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded">Cash Handling</span>
-          <span class="bg-gray-200 text-gray-800 text-xs font-semibold px-2.5 py-0.5 rounded">Adaptability</span>
+          <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded">POS System</span>
+          <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded">Transaction Reconciliation</span>
+          <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded">Cash Flow Recording</span>
+          <span class="bg-gray-200 text-gray-800 text-xs font-semibold px-2.5 py-0.5 rounded">Attention to Detail</span>
        		   </div>
                 </div>
             </div>
@@ -402,11 +415,101 @@ primaryDark: "#A893E6",
         </div> 
     </div> 
 
+
+
+<section id="leadership" class="py-20 px-4 md:px-10 bg-primary">
+  <div class="max-w-7xl mx-auto">
+
+    <!-- Section Title -->
+    <h2 class="text-3xl  md:text-4xl font-bold text-center text-gray-900 mb-8">Leadership & Club Experience
+    </h2>
+
+<!-- Leadership Cards -->
+    <div class="grid md:grid-cols-2 gap-10">
+
+<!-- Card 1 -->
+      <div class="relative bg-white rounded-2xl shadow-lg p-8 border-t-4 border-indigo-600 hover:-translate-y-1 transition-all duration-300">
+        
+<!-- Role Badge -->
+        <span class="inline-block mb-4 text-xs font-semibold tracking-wide text-indigo-700 bg-indigo-100 px-3 py-1 rounded-full"> Marketing Commitee· 2025 – Present
+        </span>
+
+        <h3 class="text-2xl font-bold text-gray-900 mb-2"> APU Bursa Young Investor Club (BYIC)
+        </h3>
+
+        <p class="text-gray-600 mb-6 text-sm leading-relaxed">
+          Responsible for planning and executing investor education campaigns while supporting event promotion and performance tracking.
+        </p>
+
+        <ul class="space-y-3 text-gray-700 text-sm">
+  <li>• Designed and deployed <strong>Google Forms</strong> for event registration, streamlining participant data collection and tracking.</li>
+  <li>• Developed <strong>content ideas and promotional strategies</strong> for event marketing across Instagram and online platforms.</li>
+  <li>• Designed club banners and visual assets to strengthen branding consistency and event visibility.</li>
+  <li>• Built an <strong>Excel dashboard using PivotTables</strong> to monitor registrations and campaign performance.</li>
+  <li>• Contributed to a <strong>22% increase in event sign-ups</strong> through data-driven promotion and effective content planning.</li>        
+	</ul>
+
+<!-- Skill Tags -->
+        <div class="flex flex-wrap gap-2 mt-6">
+          <span class="bg-indigo-100 text-indigo-800 text-xs font-semibold px-2.5 py-1 rounded-full">Marketing Strategy</span>
+          <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-1 rounded-full">Excel & PivotTables</span>
+          <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-1 rounded-full">Data Tracking</span>
+          <span class="bg-gray-200 text-gray-800 text-xs font-semibold px-2.5 py-1 rounded-full">Teamwork</span>
+        </div>
+
+<div class="mt-6">
+  <div class="swiper mini-swiper rounded-xl overflow-hidden">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="Picture & Cert/AKPK Volunteer.jpg" class="h-20 w-auto object-cover rounded-lg" alt="BYIC Event">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/byic-banner.jpg" class="h-20 w-auto object-cover rounded-lg" alt="BYIC Banner">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/byic-instagram.jpg" class="h-20 w-auto object-cover rounded-lg" alt="BYIC IG">
+       	   </div>
+   	 </div>
+       </div>
+     </div>
+   </div>
+
+
+      <!-- Card 2 -->
+      <div class="relative bg-white rounded-2xl shadow-lg p-8 border-t-4 border-emerald-600 hover:-translate-y-1 transition-all duration-300">
+        
+        <!-- Role Badge -->
+        <span class="inline-block mb-4 text-xs font-semibold tracking-wide text-emerald-700 bg-emerald-100 px-3 py-1 rounded-full">
+          Publicity Committee · 2022 – 2023
+        </span>
+
+        <h3 class="text-2xl font-bold text-gray-900 mb-2">
+          Pin Hwa High School – Mid-Autumn Festival Event
+        </h3>
+
+        <p class="text-gray-600 mb-6 text-sm leading-relaxed">
+          Supported event publicity planning and visual communication for a large-scale school cultural event.
+        </p>
+
+        <ul class="space-y-3 text-gray-700 text-sm">
+          <li>• Executed publicity strategies that successfully <strong>attracted 800+ participants</strong>.</li>
+          <li>• Managed visual communication including <strong>poster design</strong> and <strong>on-site photography</strong> to capture event highlights.</li>
+          <li>• Coordinated content planning with the organizing team to enhance event engagement.</li>
+        </ul>
+
+<!-- Skill Tags -->
+        <div class="flex flex-wrap gap-2 mt-6">
+          <span class="bg-emerald-100 text-emerald-800 text-xs font-semibold px-2.5 py-1 rounded-full">Visual Design</span>
+          <span class="bg-teal-100 text-teal-800 text-xs font-semibold px-2.5 py-1 rounded-full">Event Promotion</span>
+          <span class="bg-gray-200 text-gray-800 text-xs font-semibold px-2.5 py-1 rounded-full">Team Coordination</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
     <div id="certs" class="bg-primary py-20 px-4 md:px-10">
-
-
-
-    
         <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-8">
             My Certifications & Achievements
         </h2>
@@ -827,7 +930,7 @@ primaryDark: "#A893E6",
         slidesPerView: 1, 
         spaceBetween: 20, 
         autoplay: {
-          delay: 5000, 
+          delay: 3000, 
           disableOnInteraction: false, 
         },
         loop: true,
@@ -1008,7 +1111,20 @@ primaryDark: "#A893E6",
           document.getElementById('skillTags').style.display = 'block';
         }
       };
+
+  const miniSwiper = new Swiper('.mini-swiper', {
+    slidesPerView: 'auto',
+    spaceBetween: 12,
+    loop: true,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+    speed: 800,
+  });
+
+
+
     </script>
 </body>
-
 </html>
