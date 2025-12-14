@@ -86,12 +86,17 @@ primaryDark: "#A893E6",
 
 .mini-swiper .swiper-slide {
   width: auto;
-  opacity: 0.85;
-  transition: opacity 0.3s ease;
 }
 
-.mini-swiper .swiper-slide:hover {
-  opacity: 1;
+.mini-img {
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  cursor: pointer;
+}
+
+.mini-img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
+  z-index: 10;
 }
 
 
@@ -458,13 +463,13 @@ primaryDark: "#A893E6",
         </div>
 
 <div class="mt-6">
-  <div class="swiper mini-swiper rounded-xl overflow-hidden">
+  <div class="swiper mini-swiper rounded-xl overflow-visible px-1">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        <img src="Picture & Cert/Marketing grp.png.jpg" class="h-32 w-auto object-cover rounded-xl" alt="BYIC">
+        <img src="Picture & Cert/Marketing grp.png.jpg" class="mini-img h-32 w-auto object-cover rounded-xl" alt="BYIC">
       </div>
       <div class="swiper-slide">
-        <img src="Picture & Cert/Marketing.png" class="h-32 w-auto object-cover rounded-xl" alt="BYIC">
+        <img src="Picture & Cert/Marketing.png" class="mini-img h-32 w-auto object-cover rounded-xl" alt="BYIC">
       </div>
    	 </div>
        </div>
@@ -501,10 +506,10 @@ primaryDark: "#A893E6",
           <span class="bg-gray-200 text-gray-800 text-xs font-semibold px-2.5 py-1 rounded-full">Team Coordination</span>
         </div>
 <div class="mt-6">
-  <div class="swiper mini-swiper rounded-xl overflow-hidden">
+  <div class="swiper mini-swiper rounded-xl overflow-visible px-1">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        <img src="Picture & Cert/pin hwa.jpg" class="h-32 w-auto object-cover rounded-xl" alt="BYIC">
+        <img src="Picture & Cert/pin hwa.jpg" class="mini-img h-32 w-auto object-cover rounded-xl" alt="BYIC">
       </div>
          	      </div>
             </div>
